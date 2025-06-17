@@ -7,6 +7,7 @@ export default function Home() {
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li>App Version: {appVersion}</li>
           <li>Message: {process.env.MESSAGE}</li>
+          <li>Runtime Message: {process.env.RUNTIME_MESSAGE}</li>
         </ol>
       </main>
     </div>

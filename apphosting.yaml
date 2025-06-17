@@ -15,6 +15,11 @@ env:
     value: Hello world!
     availability:
       - BUILD
+  - variable: RUNTIME_MESSAGE
+    value: Runtime hello world!!!
+    availability:
+      - BUILD
+      - RUNTIME
   - variable: APP_VERSION
     value: apphosting_1.0.1
     availability:
