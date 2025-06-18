@@ -8,6 +8,7 @@ export default function Home() {
           <li>App Version: {appVersion}</li>
           <li>Message: {process.env.MESSAGE}</li>
           <li>Runtime Message: {process.env.RUNTIME_MESSAGE}</li>
+          <li>Last Deploy: June 8, 2025 9:56 PM</li>
         </ol>
       </main>
     </div>
